@@ -8,19 +8,18 @@ JDK : openjdk version 1.8.0_192
 ### 구성
 <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200" align="right">
 
-### Install
+### 설치
 ```bash
 git clone https://github.com/etjeong/docker_deploy.git
 ```
 
-
-### 웹서버 Nginx 스크립트
+### 웹서버 Nginx 컨테이너 기동
 ```bash
 /docker_deploy/nginx/start.sh
 /docker_deploy/nginx/stop.sh
 ```
 
-### 배포 스크립트
+### 웹어플리케이션 배포 스크립트
 $ devops.sh [start|stop|restart|build|deploy]
 - start : 컨테이너 환경 전체 실행
 - stop : 컨테이너 환경 전체 중지
