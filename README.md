@@ -17,6 +17,9 @@ $ git clone https://github.com/etjeong/docker_deploy.git
 
 ### 웹서버 Nginx 컨테이너 기동
 ```bash
+$ cd /docker_deploy/nginx
+$ docker build -t mynginx .
+
 $ /docker_deploy/nginx/start.sh
 $ /docker_deploy/nginx/stop.sh
 ```
