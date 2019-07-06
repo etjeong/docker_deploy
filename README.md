@@ -1,6 +1,3 @@
-### 과제
-웹 어플리케이션을 Docker 를 통해 서비스 하려합니다. 설정, 빌드, 실행 스크립트를 구현해주세요.
-
 
 ### 테스트 환경
 - OS : Red Hat Enterprise Linux Server release 7.3
